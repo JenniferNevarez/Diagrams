@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="QiGNwmnF0ydiQjV3WvcA">
-    <mxGraphModel dx="869" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="700" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,16 +8,102 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hOekY8qDoX06iNIJRlEA-1" value="Lee el archivo como una cadena de texto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="80" width="120" height="50" as="geometry" />
+          <mxGeometry x="365" y="10" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-4" value="Primer caracter es (&quot;)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="348" y="250" width="155" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-6" target="hOekY8qDoX06iNIJRlEA-4">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-39" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-4" target="hOekY8qDoX06iNIJRlEA-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-6" value="Separa el texto en renglones usando el alto de linea (\n) como separador." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="313" y="160" width="225" height="60" as="geometry" />
+        <mxCell id="hOekY8qDoX06iNIJRlEA-44" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-4" target="hOekY8qDoX06iNIJRlEA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-4" value="En la lista los textos comienzan por (&quot;=&quot;&quot;) o por un numero." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="770" width="192" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-6" target="hOekY8qDoX06iNIJRlEA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-6" value="Separa el texto en una lista de textos usando el salto de linea (\n) como separador." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="70" width="228" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-9" target="hOekY8qDoX06iNIJRlEA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-9" value="Separar cada texto de la lista usando la coma (,) como separador, ahora debes tener una lista de listas, la primera tiene los campos de cada tienda y el resto de listas son las tiendas." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-11" target="hOekY8qDoX06iNIJRlEA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-11" value="Trimear espacios vacios iniciales y finales de todas las cadenas de texto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-18" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-14" target="hOekY8qDoX06iNIJRlEA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-37" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-14" target="hOekY8qDoX06iNIJRlEA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-14" value="El primer y ultimo elemento de cada campo es una comilla (&quot;)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="330" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-17" target="hOekY8qDoX06iNIJRlEA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-17" value="Por cada texto en la lista de campo eliminar primer y ultimo caracter para eliminar comillas." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-22" target="hOekY8qDoX06iNIJRlEA-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-22" value="Omitir el primer texto de la lista de la tienda, Por cada texto en la lista menos el omitido, eliminar los primeros 4 caracteres (&quot;=&quot;&quot;) y los ultimos 3 (&quot;&quot;&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="795" width="180" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-25" target="hOekY8qDoX06iNIJRlEA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-25" value="Por cada lista" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-28" value="Verdadero" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-26" target="hOekY8qDoX06iNIJRlEA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-26" value="La lista seleccionada es distinta a la lista de campos (la primer lista)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308" y="640" width="235" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-46" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-31" target="hOekY8qDoX06iNIJRlEA-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="960" />
+              <mxPoint x="130" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-31" value="Quedan listas?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-40" value="Falso" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-26" target="hOekY8qDoX06iNIJRlEA-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="690" />
+              <mxPoint x="800" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-43" target="hOekY8qDoX06iNIJRlEA-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="920" />
+              <mxPoint x="385" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-43" value="Eliminar el primer y ultimo caracter de cada texto para eliminar comillas (&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="805" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
