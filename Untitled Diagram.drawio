@@ -1,76 +1,82 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="QiGNwmnF0ydiQjV3WvcA">
-    <mxGraphModel dx="775" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hOekY8qDoX06iNIJRlEA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-1" target="hOekY8qDoX06iNIJRlEA-6">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-1" target="hOekY8qDoX06iNIJRlEA-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-1" value="Lee el archivo como una cadena de texto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="10" width="120" height="50" as="geometry" />
+        <mxCell id="hOekY8qDoX06iNIJRlEA-1" value="Lee el archivo como una cadena de texto" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="-470" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-44" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-4" target="hOekY8qDoX06iNIJRlEA-43">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-44" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-4" target="hOekY8qDoX06iNIJRlEA-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-58" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-4" target="hOekY8qDoX06iNIJRlEA-22">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-58" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-4" target="hOekY8qDoX06iNIJRlEA-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-4" value="En la tienda los valores comienzan por (&quot;=&quot;&quot;) o es un numero en formato texto." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-4" value="En la tienda los valores comienzan por (&quot;=&quot;&quot;) o es un numero en formato texto." style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="329" y="770" width="192" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-6" target="hOekY8qDoX06iNIJRlEA-9">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-6" target="hOekY8qDoX06iNIJRlEA-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-6" value="Separa el texto en una lista de textos usando el salto de linea (\n) como separador." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="70" width="228" height="60" as="geometry" />
+        <mxCell id="hOekY8qDoX06iNIJRlEA-6" value="Separa el texto en una lista de textos usando el salto de linea (\n) como separador." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="311" y="-410" width="228" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-9" target="hOekY8qDoX06iNIJRlEA-11">
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-9" target="v9WvDQkO91mVLR7ylBgg-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-9" value="Separar cada texto de la lista usando la coma (,) como separador, ahora debes tener una lista de listas, la primera tiene los campos de cada tienda y el resto de listas son las tiendas." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="150" width="230" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-11" target="hOekY8qDoX06iNIJRlEA-14">
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-9" target="v9WvDQkO91mVLR7ylBgg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-11" value="Trimear espacios vacios iniciales y finales de todas las cadenas de texto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-9" target="v9WvDQkO91mVLR7ylBgg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-9" value="La lista de texto debe tener un string con los campos (columnas) y strings de textos cada uno con los valores de cada tienda, hay que separar cada campo y cada valor, usa los siguientes parametros para seleccionar cada campo o valor." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-320" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-11" target="hOekY8qDoX06iNIJRlEA-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOekY8qDoX06iNIJRlEA-11" value="Trimear espacios vacios iniciales y finales de todas las cadenas de texto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="250" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-18" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-14" target="hOekY8qDoX06iNIJRlEA-17">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-18" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-14" target="hOekY8qDoX06iNIJRlEA-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-37" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-14" target="hOekY8qDoX06iNIJRlEA-25">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-37" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-14" target="hOekY8qDoX06iNIJRlEA-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-14" value="El primer y ultimo elemento de cada campo (en primera lista) es una comilla (&quot;)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-14" value="El primer y ultimo elemento de cada campo (en primera lista) es una comilla (&quot;)?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="327" y="330" width="195" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-17" target="hOekY8qDoX06iNIJRlEA-25">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-17" target="hOekY8qDoX06iNIJRlEA-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-17" value="Por cada texto en la lista de campo eliminar primer y ultimo caracter para eliminar comillas." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-17" value="Por cada texto en la lista de campo eliminar primer y ultimo caracter para eliminar comillas." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="470" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-22" target="hOekY8qDoX06iNIJRlEA-56">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-22" target="hOekY8qDoX06iNIJRlEA-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-22" value="Omitir el primer texto de la lista de la tienda, Por cada texto en la lista menos el omitido eliminar los primeros 4 caracteres (&quot;=&quot;&quot;) y los ultimos 3 (&quot;&quot;&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-22" value="Omitir el primer texto de la lista de la tienda, Por cada texto en la lista menos el omitido eliminar los primeros 4 caracteres (&quot;=&quot;&quot;) y los ultimos 3 (&quot;&quot;&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="772.5" width="180" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-25" target="hOekY8qDoX06iNIJRlEA-26">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hOekY8qDoX06iNIJRlEA-25" target="hOekY8qDoX06iNIJRlEA-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-25" value="Repetir en cada lista" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-25" value="Repetir en cada lista" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-28" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-26" target="hOekY8qDoX06iNIJRlEA-4">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-28" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-26" target="hOekY8qDoX06iNIJRlEA-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-26" value="La lista seleccionada es distinta a la lista de campos (la primer lista)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-26" value="La lista seleccionada es distinta a la lista de campos (la primer lista)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="307.5" y="620" width="235" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-46" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-31" target="hOekY8qDoX06iNIJRlEA-25">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-46" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-31" target="hOekY8qDoX06iNIJRlEA-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="700" as="targetPoint" />
             <Array as="points">
@@ -79,10 +85,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-31" value="Quedan listas?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-31" value="Quedan listas?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="385" y="1580" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-40" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-26" target="hOekY8qDoX06iNIJRlEA-31">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-40" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-26" target="hOekY8qDoX06iNIJRlEA-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1160" y="670" />
@@ -90,48 +96,90 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-43" target="hOekY8qDoX06iNIJRlEA-31">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hOekY8qDoX06iNIJRlEA-43" target="hOekY8qDoX06iNIJRlEA-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="210" y="1600" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-43" value="Eliminar el primer y ultimo caracter de cada texto para eliminar comillas (&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-43" value="Eliminar el primer y ultimo caracter de cada texto para eliminar comillas (&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="805" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-56" target="hOekY8qDoX06iNIJRlEA-60">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hOekY8qDoX06iNIJRlEA-56" target="hOekY8qDoX06iNIJRlEA-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-56" value="Usar el 3er elemento (CRRegion) y el 5to (CRTienda) para buscar si existe tienda en PostgreSQL&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-56" value="Usar el 3er elemento (CRRegion) y el 5to (CRTienda) para buscar si existe tienda en PostgreSQL&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="930" width="180" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-65" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-60" target="hOekY8qDoX06iNIJRlEA-64">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-65" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hOekY8qDoX06iNIJRlEA-60" target="hOekY8qDoX06iNIJRlEA-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-60" value="Tienda existe en Postgre" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-60" value="Tienda existe en Postgre" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="1040" width="120" height="122.5" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-64" target="hOekY8qDoX06iNIJRlEA-66">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hOekY8qDoX06iNIJRlEA-64" target="hOekY8qDoX06iNIJRlEA-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-64" value="Toma el elemento 33 para conocer la ultima fecha de modificacion" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-64" value="Toma el elemento 33 para conocer la ultima fecha de modificacion" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="1071.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-69" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-66" target="hOekY8qDoX06iNIJRlEA-68">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-69" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hOekY8qDoX06iNIJRlEA-66" target="hOekY8qDoX06iNIJRlEA-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-71" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOekY8qDoX06iNIJRlEA-66" target="hOekY8qDoX06iNIJRlEA-70">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-71" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hOekY8qDoX06iNIJRlEA-66" target="hOekY8qDoX06iNIJRlEA-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-66" value="La tienda seleccionada es mas reciente que la tienda en postgre" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-66" value="La tienda seleccionada es mas reciente que la tienda en postgre" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1180" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-68" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-68" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hOekY8qDoX06iNIJRlEA-70" value="Rellenar campos basios dee postgre con campos de la tienda" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hOekY8qDoX06iNIJRlEA-70" value="Rellenar campos basios dee postgre con campos de la tienda" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="745" y="1310" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-4" value="o tambien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="207.5" y="-100" as="sourcePoint" />
+            <mxPoint x="305" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v9WvDQkO91mVLR7ylBgg-1" target="v9WvDQkO91mVLR7ylBgg-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="104" y="60" />
+              <mxPoint x="424" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-1" value="Empieza con los caracteres (&quot;=&quot;&quot;)&lt;br&gt;Y&lt;br&gt;Termina con los caracteres (&quot;&quot;&quot;)&lt;div&gt;Incluir valores vacios - ejemplo: &quot;=&quot;&quot;&#39;&#39;&#39;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry y="-150" width="207.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-7" value="o tambien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v9WvDQkO91mVLR7ylBgg-3" target="v9WvDQkO91mVLR7ylBgg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v9WvDQkO91mVLR7ylBgg-3" target="v9WvDQkO91mVLR7ylBgg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-3" value="Elementos vacios que esten entre 2 comillas&lt;div&gt;ejemplo:&amp;nbsp; ,,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;O tambien&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;valores numericos que esten al inicio del texto y terminen en coma&lt;/div&gt;&lt;div&gt;ejemplo: 0,&amp;nbsp; &amp;nbsp;15,&amp;nbsp; &amp;nbsp;4,&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="-150" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v9WvDQkO91mVLR7ylBgg-6" target="v9WvDQkO91mVLR7ylBgg-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="424" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-6" value="" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-170" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v9WvDQkO91mVLR7ylBgg-9" target="hOekY8qDoX06iNIJRlEA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9WvDQkO91mVLR7ylBgg-9" value="Al terminar de separar los valores deberias tener una lista de campos y varias listas de valores para cada tienda." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304.5" y="140" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
